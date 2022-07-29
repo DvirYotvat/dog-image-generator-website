@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="index.js"></script>
+    <title>Dog imags generator</title>
+    <link id="tabIcon" rel="icon" href="" type="image/x-icon">
+</head>
+
+<body onload="get_api()">
+    <div class="logo_and_img">
+        <div class="logo">
+            <h1> <img src="img/logo.png" width="5%" />
+                Big Things... Small Packages</h1>
+        </div>
+        <div class="imag_border">
+            <div id="img_insert"></div>
+        </div>
+    </div>
+    <div class="about">
+        <h2>Welcome to dog images generator</h2>
+        <h4>
+            <p class="lead">This website generat a random dog image through api.</p>
+        </h4>
+        <h5>
+            <p>© all rights reserved to <a href="https://github.com/DvirYotvat" target="_blank">Dvir Yotvat</a>.
+        </h5>
+        </p>
+        <button type="button" id="img_generator_btn" onclick="get_api()">
+            Get random dog image
+        </button>
+    </div>
+</body>
